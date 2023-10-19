@@ -19,8 +19,8 @@ def home(request):
 	else:
 		return render(request, "home.html", context)
 
-def login_user(request):
-	pass
 
 def logout_user(request):
-	pass
+	logout(request)
+	messages.success(request, "Logout successful")
+	return redirect("home")
