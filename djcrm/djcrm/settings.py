@@ -82,7 +82,6 @@ DATABASES = {
         'PASSWORD': 'Fuckshit123',
         'HOST': 'localhost',
         'PORT': '3306',
-
     }
 }
 
